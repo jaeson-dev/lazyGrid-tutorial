@@ -11,6 +11,8 @@
 		932F48C927D7234400099224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F48C827D7234400099224 /* ContentView.swift */; };
 		932F48CB27D7234500099224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932F48CA27D7234500099224 /* Assets.xcassets */; };
 		932F48CE27D7234500099224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932F48CD27D7234500099224 /* Preview Assets.xcassets */; };
+		932F48D527D73A7700099224 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F48D427D73A7700099224 /* MyModel.swift */; };
+		932F48D727D73C6200099224 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F48D627D73C6200099224 /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		932F48C827D7234400099224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		932F48CA27D7234500099224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932F48CD27D7234500099224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		932F48D427D73A7700099224 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		932F48D627D73C6200099224 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				932F48C627D7234400099224 /* lazyVGrid_tutorial_selfApp.swift */,
 				932F48C827D7234400099224 /* ContentView.swift */,
+				932F48D627D73C6200099224 /* MyCard.swift */,
+				932F48D427D73A7700099224 /* MyModel.swift */,
 				932F48CA27D7234500099224 /* Assets.xcassets */,
 				932F48CC27D7234500099224 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				932F48C927D7234400099224 /* ContentView.swift in Sources */,
+				932F48D527D73A7700099224 /* MyModel.swift in Sources */,
 				932F48C727D7234400099224 /* lazyVGrid_tutorial_selfApp.swift in Sources */,
+				932F48D727D73C6200099224 /* MyCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
